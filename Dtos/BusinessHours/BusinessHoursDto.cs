@@ -1,11 +1,11 @@
-﻿using JricaStudioWebApi.Models.Dtos.BusinessHours;
+﻿using JricaStudioSharedLibrary.Dtos.BusinessHours;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JricaStudioWebApi.Models.Dtos.BusinessHours
+namespace JricaStudioSharedLibrary.Dtos.BusinessHours
 {
     public class BusinessHoursDto : IBusinessHoursDto
     {

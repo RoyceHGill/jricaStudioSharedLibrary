@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JricaStudioWebApi.Models.Dtos.Admin
+namespace JricaStudioSharedLibrary.Dtos.Admin
 {
     public class AdminServiceToAddDto<T>
     {
@@ -15,6 +15,6 @@ namespace JricaStudioWebApi.Models.Dtos.Admin
         public decimal Price { get; set; }
         public Guid ServiceCategoryId { get; set; }
         public T ImageFile { get; set; }
-        
+
     }
 }
