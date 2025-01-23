@@ -15,6 +15,6 @@ namespace JricaStudioSharedLibrary.Dtos.Admin
         public decimal Price { get; set; }
         public Guid ServiceCategoryId { get; set; }
         public T ImageFile { get; set; }
-        
+
     }
 }
