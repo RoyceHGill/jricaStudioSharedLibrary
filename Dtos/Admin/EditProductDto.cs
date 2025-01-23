@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JricaStudioWebApi.Models.Dtos.Admin
+namespace JricaStudioSharedLibrary.Dtos.Admin
 {
     public class EditProductDto
     {
